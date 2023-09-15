@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --bg--color: red;
+    --text--color: blue;
+    --bg-2--color: skyblue;
+    --red--color: pink;
+}
+body {
+    font-family: "poppins" sans-serif;
+    background-color: var(--bg--color);
+    color: var(--text--color);
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-2--color);
+    box-shadow: 10px 2px 10px  rgba(0, 0, 0, 0.5);
+    padding: 0 30px 0 30px;
+}
+.nav-brand {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+     font-size: 30px;
+    transition: all 0.5s ease;
+}
+.nav-brand:hover {
+    color: var(--red--color);
+    cursor: pointer;
+
+}
+.nav-brand img{
+    background-image: url(/Learning-css/asset/img/chose1.png);
+    width: 60px;
+    height: 30px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-list .list-items a{
+    margin-right: 12px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.list-items a:hover {
+    color: red;
+    color: white;
+    box-shadow: -10px 10px 0px #5a5a5a,
+                -10px -10px 0px #fff;
+    text-decoration: overline;
+}
+button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px; 
+    background: #000;
+    color: #fff;
+}
+button:hover {
+    background: linear-gradient(to right, #000,#fff, #000,#fff);
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.9s ease-in-out;
+    color: red;
+}
+ .hero {
+    position: relative;
+    height: 80vh;
+ }
+ .hero img {
+    position: absolute;
+    right: 1px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 200px 0px 200px 0px;
+    border: 1px solid #000;
+    overflow: hidden;
+ 
+
+ }
+ .write-up {
+    white-space: normal;
+    line-height: 25px;
+    max-width: 20%;
+    border-radius: 40px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    left: 200px;
+
+ }
+ .write-up:hover {
+    border-radius: 40px;
+    background: #000;
+    color: white;
+    box-shadow: -34px 34px 0px #5a5a5a,
+                34px -34px 0px #fff;
+ }
+ .service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .service-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-decoration: overline;
+
+
+ }
+ .service-title:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    margin-bottom: 30px;
+ }
+
+ .card {
+    border: 1px solid block;
+    padding: 10px;
+    margin: 80px;
+    border-radius: 2px;
+    box-shadow: 7px 25px 10px 40 rgba(0, 0, 0, 0.999
+    );
+ }
+ .card img {
+    height: 200px;
+    width: fit-content;
+ }
+ .card h2 {
+    line-height: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+ }
+ .card p {
+    font-size: 16px;
+ }
+
+ 
+ 
+ 
+
+
